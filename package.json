@@ -1,0 +1,8 @@
+{
+  "name": "ai-yt-notes",
+  "version": "1.0.0",
+  "description": "Generates notes using openai API to youtube videos",
+  "main": "index.js",
+  "author": "Edem Reshidov",
+  "license": "MIT"
+}
