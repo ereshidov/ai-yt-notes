@@ -4,5 +4,7 @@
   "description": "Generates notes using openai API to youtube videos",
   "main": "index.js",
   "author": "Edem Reshidov",
-  "license": "MIT"
+  "license": "MIT",
+  "private": "true",
+  "workspaces": ["backend"]
 }
