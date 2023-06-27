@@ -1,0 +1,14 @@
+type Query {
+  youtubeVideoSummary(videoId: String!): YoutubeVideoSummary!
+}
+
+type Video {
+  captions: [String!]!
+  title: String
+  thumbnailUrl: String
+}
+
+type YoutubeVideoSummary {
+  video: Video!
+  aiSummary: String!
+}

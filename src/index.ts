@@ -7,7 +7,7 @@ import { createServer } from './server'
 import { config } from './config'
 import { createContext } from './server/createContext'
 
-const runServer = async () => {
+const runServer = async (): Promise<void> => {
   const app = express()
   const context = createContext()
   const { apolloServer, httpServer } = await createServer({
